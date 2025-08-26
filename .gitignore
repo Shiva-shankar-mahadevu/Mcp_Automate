@@ -1,0 +1,48 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build outputs
+/dist
+/build
+/.cache
+/.parcel-cache
+/.next
+/out
+coverage
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.lock-wscript
+*.tsbuildinfo
+
+#credentials
+credentials.json
+token.json
